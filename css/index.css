@@ -923,6 +923,7 @@ main {
   height: auto;
 }
 .watch_01 > div:nth-child(1) {
+  text-indent: -9999px;
   position: absolute;
   cursor: pointer;
   transition: all 0.5s ease 0s;
@@ -934,6 +935,7 @@ main {
   border: 5px solid #f2f3f5;
 }
 .watch_02 > div:nth-child(1) {
+  text-indent: -9999px;
   position: absolute;
   cursor: pointer;
   transition: all 0.5s ease 0s;
@@ -945,6 +947,7 @@ main {
   border: 5px solid #f2f3f5;
 }
 .watch_03 > div:nth-child(1) {
+  text-indent: -9999px;
   position: absolute;
   cursor: pointer;
   transition: all 0.5s ease 0s;
@@ -1087,6 +1090,30 @@ main {
 .section_gift_02 > div:nth-child(1):hover,
 .section_gift_03 > div:nth-child(1):hover {
   transform: scale(1.1) translateY(-10px);
+}
+.section_gift_01 > div:nth-child(2) > h3 {
+  cursor: pointer;
+  width: 100%;
+  font-size: 3.125rem;
+  font-family: cormorant Garamond;
+  font-weight: 200;
+  margin-bottom: 26px;
+}
+.section_gift_02 > div:nth-child(2) > h3 {
+  cursor: pointer;
+  width: 100%;
+  font-size: 3.125rem;
+  font-family: cormorant Garamond;
+  font-weight: 200;
+  margin-bottom: 26px;
+}
+.section_gift_03 > div:nth-child(2) > h3 {
+  cursor: pointer;
+  width: 100%;
+  font-size: 3.125rem;
+  font-family: cormorant Garamond;
+  font-weight: 200;
+  margin-bottom: 26px;
 }
 
 .section_gift_01 > div:nth-child(2) {
@@ -1944,6 +1971,7 @@ footer li {
   background: url(../image/arrow_right.png) no-repeat center/contain;
 }
 /* gte 768 */
+/*width: 퍼센테이지로 주면 부모의 width를 기준으로 함*/
 @media screen and (min-width: 768px) {
   .header_inner h1 {
     width: 210px;
@@ -2712,6 +2740,7 @@ footer li {
   }
 }
 /* gte 1024 */
+/*width: 퍼센테이지로 주면 부모의 width를 기준으로 함*/
 @media screen and (min-width: 1024px) {
   .mobile_btn {
     left: 5.8%;
@@ -3257,6 +3286,7 @@ footer li {
   }
 }
 /* gte 1280 */
+/*width: 퍼센테이지로 주면 부모의 width를 기준으로 함*/
 @media screen and (min-width: 1280px) {
   .mobile_btn {
     display: none;
@@ -3705,6 +3735,7 @@ footer li {
   }
 }
 /* gte 1800 */
+/*width: px로 줄것 최종 사이즈*/
 @media screen and (min-width: 1800px) {
   .header_inner {
     position: relative;
